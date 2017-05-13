@@ -1,0 +1,70 @@
+/* Base CSS */
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+a:focus {
+	outline: 0 solid;
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+body {
+	color: #383838;
+    background-color: #f8f8f8;
+	font-size: 15px;
+	line-height: 2;
+	font-weight: 300;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+
+a {
+  color: #4daefe;
+  text-decoration: none;
+}
+
+
+a:hover { text-decoration: none }
+
+
+
+.single-timeline-img {
+    background-color: #ddd;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    width: 100%;
+}
+
+.timeline-img-01 {background-image: url(../img/timeline-one.jpg);}
+.timeline-img-02 {background-image: url(../img/timeline-two.jpg);}
+.timeline-img-03 {background-image: url(../img/timeline-three.jpg);}
+.timeline-img-04 {background-image: url(../img/timeline-four.jpg);}
+.timeline-img-05 {background-image: url(../img/timeline-five.jpg);}
+.timeline-img-06 {background-image: url(../img/timeline-one.jpg);}
+.timeline-img-07 {background-image: url(../img/timeline-two.jpg);}
+
