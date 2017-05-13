@@ -1,0 +1,276 @@
+
+/*
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Ubuntu', sans-serif;
+
+    font-family: 'Inconsolata', monospace;
+*/
+
+
+/*Common CSS*/
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+a:focus {
+    outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;   /* top:0, left-right:0; bottom:15px; */
+    color: #626262;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142;
+    color: #626262;
+}
+
+
+.blog-meta, .blog-readmore-btn {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+
+.logo {
+    padding: 70px 0;
+}
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right
+}
+
+.main-menu ul li {
+    display: inline-block;
+    padding-left: 100px;
+}
+.main-menu ul li a {
+    display: block;
+    text-transform: uppercase;
+    color: #626262;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    padding: 70px 0;
+}
+
+.main-menu ul li a:hover {
+    color: #333;
+}
+
+.big-blog-box .blog-featured-content {
+    margin-bottom: 80px;
+}
+.blog-featured-content {
+    margin-bottom: 30px;
+}
+.blog-featured-content img {
+    width: 100%;
+}
+
+.single-blog-item {
+    margin-bottom: 120px;
+}
+
+.single-blog-item h2 {
+    margin: 20px 0 25px;
+}
+.single-blog-item h2 a {
+    color: #626262;
+}
+
+p.blog-meta {
+    text-transform: uppercase;
+}
+
+p.blog-meta a {
+    color: #b4ac9f;
+}
+
+
+.blog-content {
+    margin-bottom: 30px;
+    padding-right: 25px;
+}
+
+.blog-content p:last-child {
+    margin: 0;
+}
+
+.load-more-btn-wraper {
+    margin-top: -30px;
+}
+
+a.blog-readmore-btn {
+    display: inline-block;
+    padding: 10px 0;
+    color: #b4ac9f;
+    text-transform: uppercase;
+}
+
+
+
+section.newslater-section {
+    background: #f0f0f0;
+    padding: 70px 0;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.newslater-section h2 {
+    margin-bottom: 60px;
+}
+
+.newslater-form {
+    border-bottom: 1px solid #000;
+    margin: 0 auto;
+    position: relative;
+    width: 360px;
+}
+.newslater-form input[type="email"] {
+    background: #f0f0f0 none repeat scroll 0 0;
+    border: medium none;
+    color: #222;
+    padding: 5px 45px 5px 5px;
+    width: 100%;
+}
+
+.newslater-form button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+
+
+
+
+a.load-more-btn {
+    display: inline-block;
+    border: 1px solid #626262;
+    padding: 10px 25px;
+    color: #626262;
+    font-size: 20px;
+}
+
+
+
+.footer-section {
+    padding: 35px 0;
+    background: #f0f0f0;
+    margin-top: 90px;
+}
+
+ul.footer-policy {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.footer-policy li {
+    display: inline-block;
+    margin-right: 35px;
+}
+ul.footer-policy li a {
+    font-size: 14px;
+    color: #000;
+}
+
+
+ul.footer-social {
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.footer-social li {
+    display: inline-block;
+    margin-left: 15px;
+    color: #222;
+}
+ul.footer-social li a{
+    font-size: 14px;
+    color: #626262;
+    opacity: 0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+ul.footer-social li a:hover {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+
+
+
+
+
+
+
+
+/*///////////////////////////////////*/
+
+
+/*
+.newslater-form input {
+    border: none;
+    background: none;
+    border-bottom: 1px solid #111;
+    width: 75%;
+    margin-top: 60px;
+    padding: 5px;
+    background-image: url(../img/send-icon.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+*/
+
+
+
+
+
+
+.featured-bg-1 {background-image: url(../img/lifestyle-01.jpg);}
+.featured-bg-2 {background-image: url(../img/lifestyle-02.jpg);}
+.featured-bg-3 {background-image: url(../img/photodiary-01.jpg);}
+.featured-bg-4 {background-image: url(../img/photodiary-02.jpg);}
+.featured-bg-5 {background-image: url(../img/lifestyle-03.jpg);}
+.featured-bg-6 {background-image: url(../img/lifestyle-04.jpg);}
+
+
+.featured-bg {
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    height: 280px;
+    margin-right: 30px;
+}
+
+
+
+a.feature-load-more-btn {
+    
+}
+
+
+
+
+
+
