@@ -1,0 +1,147 @@
+/*Common CSS*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover {
+    text-decoration: none;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: 0 solid;
+}
+
+input[type="text"], 
+input[type="email"],
+input[type="password"], 
+input[type="url"], 
+input[type="tel"], 
+textarea {
+    border: none;
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+textarea {
+    resize: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;   /* top:0, left-right:0; bottom:15px; */
+    font-weight: 700;
+    color: #222;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h2 {
+    font-size: 32px; 
+}
+h3 {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #565656;
+    font-size: 15px;
+}
+
+section.section-padding {
+    padding: 100px 0;
+}
+
+.contact-white-box {
+    padding: 30px;
+    border: 1px solid #ededed;
+    box-shadow: 0 0 10px #ededed;
+}
+
+.contact-form {
+    margin-top: 30px;
+}
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+    width: 100%;  
+}
+.contact-form textarea {
+    height: 150px;
+}
+.contact-form input[type="submit"] {
+    padding: 10px 30px;
+    background: #4daefe;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid #4daefe;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.contact-colored-box {
+    background: #4daefe;
+    color: #fff;
+    margin-left: 25px;
+    padding: 30px;
+    min-height: 495px;
+}
+
+.contact-colored-box h4 {
+    color: #fff;
+}
+
+
+.contact-white-box h4, .contact-colored-box h4 {
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.contact-colored-box a {
+    color: #fff;
+}
+.contact-colored-box {
+}
+.contact-info {
+    margin-bottom: 40px;
+    opacity: 0.7;
+    padding-left: 40px;
+    position: relative;
+}
+.contact-info i.fa {
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+}
+
+
+.contact-social-icons a {
+}
+.contact-social-icons a {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    box-shadow: 0 0 3px #999;
+    color: #333;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 8px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    width: 40px;
+}
+.contact-social-icons a:hover {
+    color: #4daefe;
+/*    box-shadow: 0 0 0;*/
+}
