@@ -1,0 +1,103 @@
+/*Common CSS*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+a:focus {
+    outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;   /* top:0, left-right:0; bottom:15px; */
+    font-weight: 700;
+    color: #333;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #888;
+}
+
+section.section-padding {
+    padding: 100px 0;
+}
+
+
+
+.section-heading {
+    margin-bottom: 70px;
+}
+
+.single-team-member img {
+    border: 2px solid #e8e8e8;
+}
+
+.team-social-icons {
+    background: #5ba939 none repeat scroll 0 0;
+    margin: -24px 26px 0;
+    padding: 7px 0;
+    position: relative;
+    z-index: 2;
+}
+.team-social-icons a {
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 3px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    width: 30px;
+}
+
+.team-social-icons a:hover {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #fff;
+    color: #5aa838;
+}
+
+.single-team-member h4 {
+    margin-top: 20px;
+}
+
+.single-team-member h4 span {
+    display: block;
+    font-size: 75%;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
