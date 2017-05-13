@@ -1,0 +1,163 @@
+/*Common CSS*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+a:focus {
+    outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;   /* top:0, left-right:0; bottom:15px; */
+    font-weight: 300;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+section.section-padding {
+    padding: 100px 0;
+}
+
+
+.col-md-5 {
+}
+.header-top-area {
+    background: #218ae6 none repeat scroll 0 0;
+    padding: 12px 0;
+}
+.header-top-area, .header-top-area a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+}
+.header-top-area i.fa {
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.header-area ul.main-menu {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.header-area ul.main-menu li {
+    display: inline-block;
+}
+.header-area ul.main-menu li a {
+    color: #333;
+    display: block;
+    padding: 20px 0 20px 40px;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+}
+body {
+    font-size: 14px;
+    line-height: 1.7;
+}
+.header-area ul.main-menu li a:hover {
+}
+.main-menu a {
+}
+.header-area ul.main-menu li a:hover {
+    color: #1fa1fd;
+}
+.header-area img {
+    padding: 12px 0;
+}
+.homepage-slides {
+    background: #218ae6 none repeat scroll 0 0;
+    color: #fff;
+    padding: 115px 0;
+}
+.homepage-slides h2 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.homepage-slides a.homepage-read-more-btn {
+    background: #ffbe2c none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #333;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
+.homepage-slides a.homepage-read-more-btn i.fa {
+    padding-left: 5px;
+}
+
+
+
+
+.homepage-slides .owl-dots div {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin: 5px;
+    text-align: center;
+    width: 10px;
+}
+.homepage-slides .owl-dots {
+    bottom: 10px;
+    left: 0;
+    margin: 4px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+
+.homepage-slides .owl-dots div.active {
+    background: #ffbe2c;
+}
+
+
+.owl-carousel .owl-item img {
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
