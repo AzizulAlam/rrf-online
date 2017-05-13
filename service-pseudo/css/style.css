@@ -1,0 +1,146 @@
+/*Common CSS*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover {
+    text-decoration: none;
+}
+a:focus {
+    outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;   /* top:0, left-right:0; bottom:15px; */
+    font-weight: 700;
+    color: #222;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h2 {
+    font-size: 32px; 
+}
+h3 {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #565656;
+    font-size: 17px;
+}
+
+section.section-padding {
+    padding: 100px 0;
+}
+
+
+.section-title {
+    color: #565656;
+    font-size: 17px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.section-title h2 {
+    color: #222;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 8px;
+    margin-bottom: 0;
+}
+
+.section-title span {
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    background: #6aaf08;
+    margin: 0 7px;
+    border-radius: 5px;
+}
+.section-title span.middle {
+    width: 30px;
+    background: #333;
+}
+
+.featured-bg-01 {background-image: url(../img/sm-img-01.jpg);}
+.featured-bg-02 {background-image: url(../img/sm-img-02.jpg);}
+.featured-bg-03 {background-image: url(../img/sm-img-03.jpg);}
+
+
+.single-featured-img {
+    height: 120px;
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border: 1px solid #efefef;
+}
+.single-featured-img::before {
+    background: #6aaf08 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 5px;
+    position: absolute;
+    top: 5px;
+    width: 100%;
+    z-index: -2;
+}
+.single-featured-item {
+    margin-bottom: 30px;
+}
+
+.single-featured-item h3 {
+    border-bottom: 1px dashed #6aaf08;
+    padding-bottom: 15px;
+}
+
+.large-featured-img {
+    background-image: url(../img/big-img.jpg);
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 417px;
+    margin-left: 30px;
+}
+
+
+.large-featured-img::before {
+    background: #6aaf08 none repeat scroll 0 0;
+    background-image: url(../img/bg-pattern.png);
+    content: "";
+    height: 97%;
+    position: absolute;
+    right: 28px;
+    top: 24px;
+    width: 97%;
+    z-index: -2;
+}
+
+.large-featured-img::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0.4;
+}
+
+
+
