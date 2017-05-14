@@ -1,0 +1,207 @@
+font-family: 'Roboto Slab', serif;
+font-family: 'Changa One', cursive;
+
+/*Common CSS*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    outline: 0 solid;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif;
+    margin: 0 0 15px;   /* top:0, left-right:0; bottom:15px; */
+    font-weight: 300;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+section.section-padding {
+    padding: 100px 0;
+}
+
+
+
+.appointment-book-area {
+    background-image: url(../img/full-width-bg.jpg);
+    background-color: #ccc;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    position: relative;
+}
+
+
+a.book-appointment-btn {
+    background: #3E4043;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.8;
+    margin-top: 30px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+}
+
+
+.appointment-content-area {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+
+.appointment-content {
+    background: #1784C7;
+    padding: 70px 150px 70px 0;
+    position: relative;
+}
+.appointment-content::before {
+    background: #1784C7 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: -10000px;
+    position: absolute;
+    width: 10000px;
+}
+
+.appointment-content::after {
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #1784C7;
+    border-top: 15px solid transparent;
+    content: "";
+    position: absolute;
+    right: -14px;
+    top: 23%;
+}
+
+.appointment-book-area-transparent {
+    background-image: url(../img/full-width-bg-2.jpg);
+    background-color: #ccc;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.appointment-content-area-transparent {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+
+a.book-appointment-btn-transparent {
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.8;
+    margin-top: 30px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+
+
+a.book-appointment-btn-transparent::after {
+    background: #3E4043 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.appointment-content-transparent {
+/*    background: #1784C7;*/
+    padding: 70px 150px 70px 0;
+    position: relative;
+    z-index: 1;
+}
+.appointment-content-transparent::before {
+    background: #1784C7 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: -10000%;
+    position: absolute;
+    width: 10000%;
+    opacity: 0.6;
+}
+
+.appointment-content-transparent::after {
+    background: #1784C7 none repeat scroll 0 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+
+.appointment-content-right-arrow::after {
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #1784C7;
+    border-top: 15px solid transparent;
+    content: "";
+    opacity: 0.6;
+    position: absolute;
+    right: -15px;
+    top: 20%;
+}
+
+
+.appointment-content h1, .appointment-content-transparent h1 {
+    color: #fff;
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: 500;
+}
+.appointment-content p, .appointment-content-transparent p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+    opacity: 0.65;
+}
+
+
+
