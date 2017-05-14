@@ -1,0 +1,163 @@
+font-family: 'Roboto Slab', serif;
+font-family: 'Changa One', cursive;
+
+/*Common CSS*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    outline: 0 solid;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif;
+    margin: 0 0 15px;   /* top:0, left-right:0; bottom:15px; */
+    font-weight: 300;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+.section-absolute-bg {background-image: url(../img/full-width-bg.jpg);}
+
+.absolute-bg-2 {background-image: url(../img/full-width-bg-2.jpg);}
+
+
+.welcome-area, .about-us-area {
+    background-color: #222931;
+    color: #bbbec0;
+    font-size: 14px;
+    line-height: 1.8;
+    padding: 80px 0;
+    position: relative;
+}
+.boxed-content {
+    padding-left: 40px;
+    padding-right: 90px;
+    position: relative;
+}
+.boxed-content h3 {
+    font-family: roboto;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+.boxed-content p {
+}
+a.read-more-btn {
+    border: 1px solid #bbbec0;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 7px 20px;
+    text-transform: uppercase;
+}
+.boxed-content::before {
+    background: #70747a none repeat scroll 0 0;
+    content: "";
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+.about-us-area .boxed-content {
+    margin-left: 60px;
+    padding-right: 20px;
+}
+.section-absolute-bg {
+    background-color: #ccc;
+    background-position: center center;
+    background-size: cover;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    z-index: 1;
+}
+.about-us-area .section-absolute-bg {
+    left: 0;
+    right: auto;
+}
+.section-absolute-bg::before {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+
+a.video-play-btn {
+    background: #19b5fe none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 30px;
+    height: 80px;
+    left: 50%;
+    line-height: 80px;
+    margin-left: -35px;
+    margin-top: -35px;
+    padding-left: 5px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 80px;
+}
+
+/*
+
+    Code For Arrow Pointing Area ///  Right and Left
+    ====================================================
+
+*/
+ 
+.section-absolute-bg::after {
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #222931;
+    border-top: 20px solid transparent;
+    content: "";
+    left: 0;
+    margin-top: -20px;
+    position: absolute;
+    top: 50%;
+}
+.about-us-area .section-absolute-bg::after {
+    border-left: medium none;
+    border-right: 20px solid #222931;
+    right: 0;
+}
+
