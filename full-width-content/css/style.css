@@ -1,0 +1,215 @@
+font-family: 'Roboto Slab', serif;
+font-family: 'Changa One', cursive;
+
+/*Common CSS*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    outline: 0 solid;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 15px;   /* top:0, left-right:0; bottom:15px; */
+    font-weight: 300;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    background: #f5f6fa none repeat scroll 0 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+
+
+.our-services-wrapper {
+    margin-left: -15px;
+    overflow: hidden;
+}
+.our-single-service {
+    background: #fff none repeat scroll 0 0;
+    display: table;
+    float: left;
+    height: 320px;
+    text-align: center;
+    width: 50%;
+    
+}
+.our-single-service-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 50px;
+    transition: all ease 0.4s;
+}
+
+.our-single-service:hover .our-single-service-tablecell {
+    padding-top: 0;
+}
+
+.our-single-service:hover a.service-boxed-btn {
+    opacity: 1;
+    visibility: visible;
+}
+
+a.service-boxed-btn {
+    background: #7bbacf none repeat scroll 0 0;
+    border: 1px solid #7bbacf;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    transition: all ease 0.4s;
+}
+
+a.service-boxed-btn:hover {
+    background: #f5f6fa;
+    color: #7bbacf;
+}
+
+.about-us-content a.service-boxed-btn {
+    margin-right: 20px;
+}
+
+.our-single-service a.service-boxed-btn {
+    background: #da879b none repeat scroll 0 0;
+    border: 1px solid #da879b;
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease 0.4s;
+}
+
+.our-single-service h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.our-single-service h3::before {
+    background: #da879b none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -15px;
+    position: absolute;
+    width: 30px;
+}
+
+.our-single-service i.service-icon::before {
+    font-size: 70px;
+}
+
+.our-single-service i.service-icon {
+    color: #da879b;
+    margin-bottom: -10px;
+    display: inline-block;
+    margin-top: -30px;
+}
+
+
+.our-single-service:nth-child(2) {
+    background: #da879b none repeat scroll 0 0;
+    color: #fff;
+}
+
+.our-single-service:nth-child(2) a.service-boxed-btn {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #fff;
+    color: #da879b;
+}
+
+.our-single-service:nth-child(2) h3::before, .our-single-service:nth-child(3) h3::before {
+    background: #fff none repeat scroll 0 0;
+}
+.our-single-service:nth-child(2) i.service-icon, .our-single-service:nth-child(3) i.service-icon {
+    color: #fff;
+}
+
+
+.our-single-service:nth-child(3) {
+    background: #7bbacf none repeat scroll 0 0;
+    color: #fff;
+}
+
+.our-single-service:nth-child(3) a.service-boxed-btn {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #fff;
+    color: #7bbacf;
+}
+
+
+.our-single-service:nth-child(4) i.service-icon {
+    color: #7bbacf;
+}
+
+.our-single-service:nth-child(4) h3::before {
+    background: #7bbacf none repeat scroll 0 0;
+}
+
+.our-single-service:nth-child(4) a.service-boxed-btn {
+    background: #7bbacf none repeat scroll 0 0;
+    border: 1px solid #7bbacf;
+    color: #fff;
+}
+
+
+.about-us-content {
+    padding: 122px 50px;
+}
+
+
+.about-us-content h3 {
+    color: #7bbacf;
+    font-family: times new roman;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0 0 5px;
+}
+.about-us-content h2 {
+    font-size: 38px;
+    font-weight: 900;
+    margin: 0 0 50px;
+}
+.about-us-content h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    opacity: 0.8;
+    margin: 0 0 20px;
+}
+.about-us-content p {
+    color: #909090;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 45px;
+}
+
+
