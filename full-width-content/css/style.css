@@ -84,6 +84,9 @@ a.service-boxed-btn {
     padding: 10px 40px;
     text-transform: uppercase;
     transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
 }
 
 a.service-boxed-btn:hover {
