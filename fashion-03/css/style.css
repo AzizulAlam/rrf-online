@@ -1,0 +1,241 @@
+
+/*font-family: 'Karla', sans-serif; */
+
+
+/*Common CSS*/
+
+@font-face {
+  font-family: 'codeLight';
+  src: url('../fonts/codeLight/codeLight.eot');
+  src: url('../fonts/codeLight/codeLight.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/codeLight/codeLight.woff2') format('woff2'), url('../fonts/codeLight/codeLight.woff') format('woff'), url('../fonts/codeLight/codeLight.ttf') format('truetype'), url('../fonts/codeLight/codeLight.svg#codeLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'codeBold';
+  src: url('../fonts/codeBold/codeBold.eot');
+  src: url('../fonts/codeBold/codeBold.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/codeBold/codeBold.woff2') format('woff2'), url('../fonts/codeBold/codeBold.woff') format('woff'), url('../fonts/codeBold/codeBold.ttf') format('truetype'), url('../fonts/codeBold/codeBold.svg#codeBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'avenirMedium';
+  src: url('../fonts/avenirMedium/avenirMedium.eot');
+  src: url('../fonts/avenirMedium/avenirMedium.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/avenirMedium/avenirMedium.woff2') format('woff2'), url('../fonts/avenirMedium/avenirMedium.woff') format('woff'), url('../fonts/avenirMedium/avenirMedium.ttf') format('truetype'), url('../fonts/avenirMedium/avenirMedium.svg#avenirMedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;   /* top:0, left-right:0; bottom:15px; */
+    font-weight: 700;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+p {
+    font-family: 'codeLight';
+}
+
+.homepage-slides {
+    background-image: url(../img/header-bg.jpg);
+    background-color: #efdbd5;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.single-product-bg-01 {background-image: url(../img/product-01.png);}
+.single-product-bg-02 {background-image: url(../img/product-02.png);}
+.single-product-bg-03 {background-image: url(../img/product-03.png);}
+.single-product-bg-04 {background-image: url(../img/product-04.png);}
+.single-product-bg-05 {background-image: url(../img/product-05.png);}
+.single-product-bg-06 {background-image: url(../img/product-06.png);}
+.single-product-bg-07 {background-image: url(../img/product-07.png);}
+.single-product-bg-08 {background-image: url(../img/product-08.png);}
+.single-product-bg-09 {background-image: url(../img/product-09.png);}
+.single-product-bg-10 {background-image: url(../img/product-10.png);}
+
+
+
+
+
+
+
+.header-top-area a {
+    color: #5b3f61;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header-left ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+}
+.header-left ul li {
+    display: inline-block;
+}
+.header-left ul li a {
+    padding-right: 50px;
+}
+.header-top-area {
+    left: 0;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.header-right a {
+    padding-left: 30px;
+}
+.header-right a.search-trigger i.fa {
+    padding-left: 10px;
+}
+.header-right i.fa {
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.header-right img {
+    max-width: 50px;
+}
+
+
+html, body, .homepage-slide-wrap {
+    height: 100%;
+}
+.slide-text-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.slide-text-tablecell {
+    display: table-cell;
+    height: auto;
+    vertical-align: middle;
+}
+.homepage-slides, .homepage-slides div {
+    height: 100%;
+    position: relative;
+}
+.header-left a.menu-trigger {
+    display: none;
+}
+.single-slide-item {
+    position: relative;
+}
+.single-slide-item img {
+    bottom: 0;
+    left: 50%;
+    margin-left: -300px;
+    position: absolute;
+    width: 600px;
+}
+.slider-text {
+    height: auto;
+}
+.slide-text-tablecell, .slide-text-tablecell div {
+    height: auto;
+}
+.slider-text {
+    color: #e84f88;
+    font-family: codeLight;
+    font-size: 120px;
+    line-height: 95px;
+    padding-left: 13%;
+    position: relative;
+    z-index: 3;
+}
+.slider-text p:nth-child(2) {
+    font-family: codeBold;
+    font-style: italic;
+}
+p.slider-differ-color {
+    color: #6db0c6;
+}
+.catagory-big-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.catagory-big-menu li {
+    background: #ecf3e8 none repeat scroll 0 0;
+    float: left;
+    transition: all 0.4s ease 0s;
+    width: 30%;
+}
+
+.catagory-big-menu li:hover {
+    opacity: 0.8;
+}
+
+.catagory-big-menu a {
+    color: #5b3f61;
+    display: block;
+    font-family: codeLight;
+    font-size: 48px;
+    padding: 150px 30px 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.catagory-big-menu li:nth-child(2) a {
+    color: #e84f88;
+    font-family: codeBold;
+}
+.catagory-big-menu li:nth-child(2) {
+    background-color: #f1e5e5;
+    width: 20%;
+}
+.catagory-big-menu li:nth-child(3) {
+    background-color: #f6f3e6;
+    width: 20%;
+}
+.catagory-big-menu li:nth-child(4) {
+    background-color: #ecf4f5;
+}
+
+
+
+
+
+
+
+
+
