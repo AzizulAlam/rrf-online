@@ -1,0 +1,633 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<link href="https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>-->
+<title>SPIN Analytics &amp; Strategy</title>
+
+<style type="text/css">
+
+
+div, p, a, li, td { -webkit-text-size-adjust:none; }
+
+*{-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
+
+.ReadMsgBody
+{width: 100%; background-color: #ffffff;}
+.ExternalClass
+{width: 100%; background-color: #ffffff;}
+body{width: 100%; height: 100%; background-color: #ffffff; margin:0; padding:0; -webkit-font-smoothing: antialiased; font-family: 'Exo 2', sans-serif; !important}
+html{width: 100%; background-color: #ffffff;}
+
+
+p {padding: 0!important; margin-top: 0!important; margin-right: 0!important; margin-bottom: 0!important; margin-left: 0!important; }
+
+ 
+.hover:hover {opacity:0.85;filter:alpha(opacity=85); color: #566C7E;}
+.hover {
+    transition: all ease 0.3s;
+    }
+.underline:hover {text-decoration: underline!important;}
+
+.jump:hover {opacity:0.75;filter:alpha(opacity=75);padding-top: 10px!important;}
+    a {
+        color: #43AEC1; 
+    }
+a.bigger, a.bigger img {-webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; }
+
+a.bigger:hover, a.bigger img:hover {-webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); -ms-transform: scale(1.1); }
+    
+a.rotator img {-webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; }
+
+a.rotator img:hover {-webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg); -ms-transform: rotate(360deg); }
+
+@-webkit-keyframes bounceIn { 0% {opacity: 0;-webkit-transform: scale(.3);transform: scale(.3);}50% {opacity: 1;-webkit-transform: scale(1.05);transform: scale(1.05);}70% {-webkit-transform: scale(.9);transform: scale(.9);}100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}}
+
+@keyframes bounceIn {0% {opacity: 0;-webkit-transform: scale(.3);-ms-transform: scale(.3);transform: scale(.3);}50% {opacity: 1;-webkit-transform: scale(1.05);-ms-transform: scale(1.05);transform: scale(1.05);}70% {-webkit-transform: scale(.9);-ms-transform: scale(.9);transform: scale(.9);}100% {opacity: 1;-webkit-transform: scale(1);-ms-transform: scale(1);transform: scale(1);}}
+
+#box {-webkit-animation: bounceIn 2s; -moz-animation: bounceIn 2s; -o-animation: bounceIn 2s; animation: bounceIn 2s; }
+
+@-webkit-keyframes bounceIn {0% {opacity: 0;-webkit-transform: scale(.3);transform: scale(.3);}50% {opacity: 1;-webkit-transform: scale(1.05);transform: scale(1.05);}70% {-webkit-transform: scale(.9);transform: scale(.9);}100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}}
+
+@keyframes bounceIn {0% {opacity: 0;-webkit-transform: scale(.3);-ms-transform: scale(.3);transform: scale(.3);}50% {opacity: 1;-webkit-transform: scale(1.05);-ms-transform: scale(1.05);transform: scale(1.05);}70% {-webkit-transform: scale(.9);-ms-transform: scale(.9);transform: scale(.9);}100% {opacity: 1;-webkit-transform: scale(1);-ms-transform: scale(1);transform: scale(1);}}
+
+#box2 { -webkit-animation: bounceIn 1.5s; -moz-animation: bounceIn 1.5s; -o-animation: bounceIn 1.5s; animation: bounceIn 1.5s; }
+
+@-webkit-keyframes bounceIn { 0% {opacity: 0;-webkit-transform: scale(.3);transform: scale(.3);}50% {opacity: 1;-webkit-transform: scale(1.05);transform: scale(1.05);}70% {-webkit-transform: scale(.9);transform: scale(.9);}100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}}
+
+@keyframes bounceIn {0% {opacity: 0;-webkit-transform: scale(.3);-ms-transform: scale(.3);transform: scale(.3);}50% {opacity: 1;-webkit-transform: scale(1.05);-ms-transform: scale(1.05);transform: scale(1.05);}70% {-webkit-transform: scale(.9);-ms-transform: scale(.9);transform: scale(.9);}100% {opacity: 1;-webkit-transform: scale(1);-ms-transform: scale(1);transform: scale(1);}}
+
+#box3 {-webkit-animation: bounceIn 2s; -moz-animation: bounceIn 2s; -o-animation: bounceIn 2s; animation: bounceIn 2s; }
+
+@-webkit-keyframes bounceIn {0% {opacity: 0;-webkit-transform: scale(.3);transform: scale(.3);}50% {opacity: 1;-webkit-transform: scale(1.05);transform: scale(1.05);}70% {-webkit-transform: scale(.9);transform: scale(.9);}100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}}
+
+@keyframes bounceIn {0% {opacity: 0;-webkit-transform: scale(.3);-ms-transform: scale(.3);transform: scale(.3);}50% {opacity: 1;-webkit-transform: scale(1.05);-ms-transform: scale(1.05);transform: scale(1.05);}70% {-webkit-transform: scale(.9);-ms-transform: scale(.9);transform: scale(.9);}100% {opacity: 1;-webkit-transform: scale(1);-ms-transform: scale(1);transform: scale(1);}}
+
+#box4 { -webkit-animation: bounceIn 1.5s; -moz-animation: bounceIn 1.5s; -o-animation: bounceIn 1.5s; animation: bounceIn 1.5s; }
+
+#logo img {width: 125px; height: auto;}
+#logo_footer img {width: 100px; height: auto;}
+.image175 img {width: 184px; height: auto;}
+.image184 img {width: 184px; height: auto;}
+.icon34 img {width: 34px; height: auto;}
+#icon13 img {width: 13px; height: auto;}
+.icon30 img {width: 30px; height: auto;}
+.image191 img {width: 191px; height: auto; border-radius: 4px;}
+.avatar83 img {width: 83px; height: auto;}
+.image194 img {width: 194px; height: auto; border-radius: 4px;}
+.icon37 img {width: 37px; height: auto;}
+.image400 img {width: 400px; height: auto;}
+.image600 img {width: 600px; height: auto; border-radius: 4px;}
+.image185 img {width: 185px; height: auto; border-radius: 4px;}
+.image352 img {width: 352px; height: auto;}
+.icons17 img {width: 17px; height: auto;}
+span.content-title {margin-left: 30px;}
+
+@media only screen and (max-width: 640px){
+		body{width:auto!important;}
+		table[class=full] {width: 100%!important; clear: both; }
+		table[class=mobile] {width: 100%!important; padding-left: 20px; padding-right: 20px; clear: both; }
+		table[class=fullCenter] {width: 100%!important; text-align: center!important; clear: both; }
+		td[class=fullCenter] {width: 100%!important; text-align: center!important; clear: both; }
+		*[class=erase] {display: none;}
+		*[class=buttonScale] {float: none!important; text-align: center!important; display: inline-block!important; clear: both;}
+		.[class=textLeft] {text-align: left!important; float: left!important;}
+		.h10 {height: 10px!important;}
+		table[class=scale33] {width: 30%!important;}
+		table[class=scale33Right] {width: 30%!important;}
+		table[class=scale33_2] {width: 32%!important;}
+		table[class=scale33Right_2] {width: 32%!important;}
+		table[class=scale50] {width: 46%!important;}
+		table[class=scale50Right] {width: 46%!important;}
+		.image185 img {width: 100%!important; height: auto;}
+		.image194 img {width: 100%!important; height: auto;}
+		.pad {width: 100%!important; padding-left: 15px!important; padding-right: 15px!important;}
+		table[class=w10] {width: 5%!important; }
+		table[class=w5] {width: 2%!important; }
+		.image600 img {width: 100%!important; height: auto!important; border-radius: 4px;}
+		.image400 img {width: 100%!important; height: auto;}
+		.image352 img {width: 100%!important; height: auto;}
+		.h40 {height: 40px!important;}
+		.h30 {height: 30px!important;}
+		td[class=pad20] {width: 100%!important; padding-left: 20px!important; padding-right: 20px!important; clear: both; }
+        span.content-title {margin-left: 0;}
+} 
+
+@media only screen and (max-width: 479px){
+		body{width:auto!important;}
+		table[class=full] {width: 100%!important; clear: both; }
+		table[class=mobile] {width: 100%!important; padding-left: 20px; padding-right: 20px; clear: both; }
+		table[class=fullCenter] {width: 100%!important; text-align: center!important; clear: both; }
+		td[class=fullCenter] {width: 100%!important; text-align: center!important; clear: both; }
+		*[class=erase] {display: none;}
+		*[class=buttonScale] {float: none!important; text-align: center!important; display: inline-block!important; clear: both;}
+		.h10 {height: 10px!important;}
+		table[class=scale33] {width: 100%!important;}
+		table[class=scale33Right] {width: 100%!important;}
+		table[class=scale33_2] {width: 100%!important;}
+		table[class=scale33Right_2] {width: 100%!important;}
+		table[class=scale50] {width: 100%!important;}
+		table[class=scale50Right] {width: 100%!important;}
+		.image185 img {width: 100%!important; height: auto;}
+		.image194 img {width: 100%!important; height: auto;}
+		.pad {width: 100%!important; padding-left: 15px!important; padding-right: 15px!important;}
+		table[class=w10] {width: 100%;}
+		.image600 img {width: 100%!important; height: auto!important; border-radius: 4px;}
+		.image400 img {width: 100%!important; height: auto;}
+		.image352 img {width: 100%!important; height: auto;}
+		.h40 {height: 40px!important;}
+		.h30 {height: 30px!important;}
+		td[class=pad20] {width: 100%!important; padding-left: 20px!important; padding-right: 20px!important; clear: both; }
+        span.content-title {margin-left: 0;}
+}
+</style> 
+
+</head>
+<body style="margin: 0; padding: 0;">
+
+
+
+<!--
+bgcolor="#f67b7c"
+bgcolor="#e6e6e6"
+-->
+<!-- Start Template  -->
+
+<!--  Section One  -->
+    <table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+	<tr>
+		<td align="center" bgcolor="#e6e6e6" style="background-image: url('http://www.spinanalyticsandstrategy.com/wp-content/themes/spin/images/word-map.png'); background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-position: center center; background-repeat: no-repeat;">
+		
+			<!-- Wrapper -->
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tr>
+					<td width="100%" align="center">
+					
+						<!-- Start Logo -->
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tr>
+								<td width="100%" height="15"></td>
+							</tr>
+						</table>
+						
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tr>
+								<td width="100%" valign="middle" class="image184" align="center">
+								
+									<!-- Image 184px -->
+									<table width="140" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
+										<tr>
+											<td height="60" valign="middle" width="100%" style="text-align: center;" class="fullCenter" id="box">
+												<a href="http://www.spinanalyticsandstrategy.com" target="_blank"><img width="184" src="http://www.spinanalyticsandstrategy.com/wp-content/themes/spin/images/logo.png" alt="" border="0"></a>
+											</td>
+										</tr>
+									</table>
+									
+								</td>
+							</tr>
+						</table><!-- End Logo -->
+						
+						
+						<!-- Start Header -->
+						
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tr>
+								<td width="100%" valign="middle" class="image175" align="center">
+									
+									<!-- Header Text --> 
+									<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="text-align: center; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
+										<tr>
+											<td width="100%" height="25"></td>
+										</tr>
+										<tr>
+											<td valign="middle" width="100%" style="text-align: center; font-size: 48px; line-height: 50px; font-weight: 300;" id="box3" class="fullCenter">
+											
+												<span style="font-weight: 600; text-transform: uppercase; color: #556b7d;">Analytics - Business With Intelligence</span>
+												
+											</td>
+										</tr>
+									</table>
+									
+								</td>
+							</tr>
+						</table>
+									
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tr>
+								<td width="100%" valign="middle" align="center">	
+								
+									<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="text-align: center; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
+										<tr>
+											<td width="100%" height="40"></td>
+										</tr>
+										<tr>
+											<td valign="middle" width="100%">
+												<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+													<tr>
+														<td width="30" class="erase"></td>
+														<td width="540" style="text-align: center; font-size: 24px; line-height: 32px; font-weight: 700; text-transform: uppercase; color: #556b7d; margin-top:20px;" class="fullCenter" id="box2">
+															Amplitude of analytics in retail &amp; <br> ecommerce industry
+														</td>
+														<td width="30" class="erase"></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+									
+								</td>
+							</tr>
+						</table>
+									
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tr>
+								<td width="100%" valign="middle" align="center">	
+								
+									<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="text-align: center; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
+										
+										<tr>
+											<td width="100%" height="60"></td>
+										</tr>
+										<!-- Button Center -->
+										<tr>
+											<td class="buttonScale" width="auto" align="center" id="box4">
+												
+												<table border="0" cellpadding="0" cellspacing="0" align="center" class="buttonScale">
+													<tr>
+														<td width="auto" align="center" height="40" style=" border: 2px solid #556b7d; padding-left: 40px; padding-right: 40px; padding-top: 5px; padding-bottom: 5px; font-weight: 600; color: #ffffff; background: #00bcd4; border-radius:5px;">
+															<a class="hover" href="http://www.spinanalyticsandstrategy.com/contact" target="_blank" style="color: #fff; font-size: 16px; text-decoration: none; line-height: 32px; width: 100%; text-transform: uppercase; ">contact us</a>
+														</td>
+													</tr>
+												</table>
+											
+											</td>
+										</tr>
+										<!-- End Button Center -->
+									</table>
+									
+								</td>
+							</tr>
+						</table>
+									
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tr>
+								<td width="100%" valign="middle" align="center">	
+								
+									<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="text-align: center; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
+										
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</table>
+																	
+								</td>
+							</tr>
+						</table><!-- End Header Text -->
+						
+					</td>
+				</tr>
+			</table><!-- End Wrapper -->
+			
+		</td>
+	</tr>
+</table>    
+
+
+
+<!--  Section One  -->
+    <table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+	<tr>
+		<td align="center" bgcolor="#e6e6e6"> <!-- Main Body Background Color -- >
+		
+			<!-- Wrapper -->
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tr>
+					<td width="100%" align="center">
+						
+						<!-- Start Content Area -->
+						
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tr>
+								<td width="100%" valign="middle" align="center">
+									
+				        <!-- Content Greetings --> 
+									<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="text-align: center; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
+									
+									<!-- Space before Greetings -->
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										
+										<tr>
+											<td valign="middle" width="100%" style="text-align: left; font-size: 18px; color: #ffffff; line-height: 26px; font-weight: 600;" >
+										
+										<!-- Greetings Text -->		
+												<span class="content-title" style="font-weight: 400; color: #333; font-size: 22px;">Greetings from SPIN!</span>
+												
+											</td>
+										</tr>
+									</table>
+									
+								</td>
+							</tr>
+						</table>
+                                
+            <!-- Main Content Area -->					
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tr>
+								<td width="100%" valign="middle" align="center">	
+								
+									<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="text-align: center; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
+									
+						<!-- Space before Main Content -->			
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+										
+										<tr>
+											<td valign="middle" width="100%">
+												<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+													<tr>
+														<td width="30" class="erase"></td>
+								<!-- Main Content Text 1st Para-->						
+														<td width="540" style="text-align: left; font-size: 20px; line-height: 28px; font-weight: 400; color: #333; margin-top:20px; text-align:justify;">
+															SPIN Analytics &amp; Strategy is a research driven data science organisation. We have worked with top organisations, governments and possess sufficient in-depth knowledge on various business and their respective verticals. Along with the analytics, we hold in-depth knowledge in building customised softwares for niche industries. We at SPIN, design &amp; build cost-effective, attractive, retentive &amp; responsive web, desktop and mobile applications (on all platforms) that enable our clients to channelilize their operations &amp; grow their business. We combine creative yet engineering designs, latest innovation in technology and a compelling narrative that ensures an effective &amp; efficient workflow applications for manufacturing industries. We also work on data Base Management, Cloud integrations, Machine Learning, loT and VR stuff.
+														</td>
+														<td width="30" class="erase"></td>
+													</tr>
+													
+													
+												</table>
+											</td>
+										</tr>
+									</table>
+									
+								</td>
+							</tr>
+						</table>
+									
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tr>
+								<td width="100%" valign="middle" align="center">	
+								
+									<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="text-align: center; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
+									
+					<!-- Space before Main Content 2nd Para -->					
+										<tr> <!--Space -->
+											<td width="100%" height="30"></td>
+										</tr> <!--End Space -->
+										
+										<tr>
+											<td width="100%">
+											    <table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+													<tr>
+														<td width="30" class="erase"></td>
+								<!-- Main Content Text 2nd Para-->						
+														<td width="540" style="text-align: left; font-size: 20px; line-height: 28px; font-weight: 400; color: #333; margin-top:20px; text-align:justify;">
+															We would be really interested in connecting with you and understand if we can help you with any of the above services.
+														</td>
+														<td width="30" class="erase"></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										
+					<!-- Space before Contact Us Button  -->					
+										<tr>
+											<td width="100%" height="50"></td>
+										</tr> <!--End Space -->
+										
+				            <!--Contact Us Button Center -->
+										<tr>
+											<td class="buttonScale" width="auto" align="center" id="box14">
+												
+												<table border="0" cellpadding="0" cellspacing="0" align="center" class="buttonScale">
+													<tr>
+														<td width="auto" align="center" height="40" style=" border: 2px solid #999; padding-left: 40px; padding-right: 40px; padding-top: 5px; padding-bottom: 5px; font-weight: 600; color: #ffffff; background: #00bcd4; border-radius:5px;">
+															<a class="hover" href="http://www.spinanalyticsandstrategy.com/contact" target="_blank" style="color: #fff; font-size: 16px; text-decoration: none; line-height: 32px; width: 100%; text-transform: uppercase; ">contact us</a>
+														</td>
+													</tr>
+												</table>
+											
+											</td>
+										</tr>
+										<!-- End Button Center -->
+									</table>
+								</td>
+							</tr>
+						</table>
+						
+						
+				<!-- Space After Contact Us Button -->				
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tr>
+								<td width="100%" height="40"> </td>
+							</tr>
+						</table><!-- End Space After Contact Us Button -->
+						
+					</td>
+				</tr>
+			</table><!-- End Wrapper -->
+			
+		</td>
+	</tr>
+</table> 
+
+
+
+<!-- Happy Client Section Start -->
+
+<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#e6e6e6">
+	<tr>
+		<td width="100%" valign="top" align="center">
+			
+			<!-- Wrapper -->
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tr>
+					<td align="center">
+						
+						<!-- Wrapper -->
+						<table width="540" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tr>
+								<td width="100%" class="image191" align="center">
+									
+				<!-- Happy Client Title Area -->
+									<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+										<tr>
+											<td width="100%">
+											    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
+                           
+                            <!-- Happy Client Title -->                       
+                                                    <tr>
+                                                        <td valign="middle" width="100%" style="text-align: left; font-size: 17px; color: #333; line-height: 30px; font-weight: 700;" class="fullCenter">
+                                                            <p style="text-decoration: underline">Our Happy Clients</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td width="100%" height="2"></td>
+                                                    </tr>
+                                                    
+                                                    
+                                <!--Space After Happy Client Title -->
+                                                    <tr>
+                                                        <td width="100%" height="25"></td>
+                                                    </tr>
+                                                </table>  
+											</td>
+										</tr>
+									</table><!-- End Happy Client Title -->
+									
+									<!-- Space -->
+									<table width="10" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+										<tr>
+											<td width="100%" height="1"></td>
+										</tr>
+									</table><!-- End Space -->
+									
+									<!-- Image 189 - 1 -->
+									<table width="240" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
+        
+
+										<tr>
+											<td width="100%" style="text-align: center;" class="fullCenter">
+												<a class="bigger" href="#" style="text-decoration: none;"><img style="width:220px;" src="https://azizulalam.tk/client-resource/client-logo-01.png" width="189" height="auto" alt="" border="0" class="hover"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+										
+										
+										<tr>
+											<td width="100%" style="text-align: center;" class="fullCenter">
+												<a class="bigger" href="#" style="text-decoration: none;"><img style="width:210px; height: 70px;" src="https://azizulalam.tk/client-resource/client-logo-03.png" width="189" height="auto" alt="" border="0" class="hover"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</table>
+									
+									
+									<!-- Image 189 - 2 -->
+									<table width="240" border="0" cellpadding="0" cellspacing="0" align="right" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
+									
+			
+										<tr>
+											<td width="100%" style="text-align: center;" class="fullCenter">
+												<a class="bigger" href="#" style="text-decoration: none;"><img style="width:220px; height:66px;" src="https://azizulalam.tk/client-resource/client-logo-02.png" width="189" height="auto" alt="" border="0" class="hover"></a>
+											</td>
+										</tr>
+										<!-- Space -->
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+										
+										
+										<tr>
+											<td width="100%" style="text-align: center;" class="fullCenter">
+												<a class="bigger" href="#" style="text-decoration: none;"><img style="width:200px; height: 68px;" src="https://azizulalam.tk/client-resource/client-logo-04.png" width="189" height="auto" alt="" border="0" class="hover"></a>
+											</td>
+										</tr>
+										
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</table>
+									
+								</td>
+							</tr>
+						</table><!-- End Wrapper 2 -->
+					</td>
+				</tr>
+			</table><!-- End Wrapper -->
+		
+		</td>
+	</tr>
+</table>
+
+
+
+
+
+<!-- Section Nine -->
+<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+	<tr>
+		<td align="center" width="100%" valign="top" bgcolor="#2F3A43">	
+			
+			<!-- Wrapper -->
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tr>
+					<td align="center">
+					
+						<!-- Space -->
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</table><!-- End Space -->
+								
+						<!-- Wrapper -->
+						<table width="560" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tr>
+								<td width="100%" align="center">
+								
+									<!-- Logo Footer -->
+									<table width="350" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
+										<tr>
+											<td height="60" valign="middle" width="100%" style=" font-size:13px;text-align: left;" class="fullCenter" id="logo_footer">
+                                                <p style="color:#fff; font-size: 15px; line-height: 20px; font-weight: 400;">1999 S Bascom Ave, Suit#700 </p> 
+                                                <p style="color:#fff; font-size: 15px; line-height: 20px; font-weight: 400;">Campbell, CA – 95008 </p>
+                                                <p style="color:#fff; font-size: 15px; line-height: 20px; font-weight: 400;">Phone: +1 (408) 676-6956 </p>
+											</td>
+										</tr>
+									</table>
+									
+								
+																						
+									
+									
+									<!-- Social Icons -->
+									<table width="105" border="0" cellpadding="0" cellspacing="0" align="right" style="text-align: right; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="buttonScale">
+									    	
+																				
+										<tr>
+											<td height="55" valign="middle" width="35" align="center" class="icons17" style="text-align: center;">
+												<a href="#" style="text-decoration: none;"><img src="http://www.spinanalyticsandstrategy.com/wp-content/themes/spin/images/twitter.png" width="17" alt="" border="0" class="hover" style="width:25px;"></a>
+											</td>
+											<td height="55" valign="middle" width="35" align="center" class="icons17" style="text-align: center;">	
+												<a href="#" style="text-decoration: none;"><img src="http://www.spinanalyticsandstrategy.com/wp-content/themes/spin/images/fb.png" alt="" border="0" class="hover" style="width: 26px"></a>
+											</td>
+											<td height="55" valign="middle" width="35" align="center" class="icons17" style="text-align: center;">	
+												<a href="#" style="text-decoration: none;"><img src="http://www.spinanalyticsandstrategy.com/wp-content/themes/spin/images/gplus.png" width="17" alt="" border="0" class="hover" style="width: 25px"></a>
+											</td>
+										</tr>
+									</table>
+									
+															
+								</td>
+							</tr>
+						</table><!-- End Wrapper 2 -->
+						
+					</td>
+				</tr>
+				<!-- Space -->
+									<table width="20" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</table><!-- End Space -->
+			</table><!-- End Wrapper -->
+		
+		</td>
+	</tr>
+</table>
+
+
+<!-- End Template -->
+
+</table>
+</body>
+</html>
