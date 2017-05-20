@@ -1,0 +1,179 @@
+/*Common CSS*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+a:focus {
+    outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;   /* top:0, left-right:0; bottom:15px; */
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+section.section-padding {
+    padding: 100px 0;
+}
+
+
+.hero-slider-area-wrap {background-image: url(../img/paint-brush-bg.jpg);}
+
+.hero-slider-area-wrap:after {
+    background: #2a166e;
+    background: -moz-linear-gradient(-45deg, #2a166e 0%, #321883 30%, #4e26be 53%, #c489c9 77%, #e0b2c5 100%);
+    background: -webkit-linear-gradient(-45deg, #2a166e 0%,#321883 30%,#4e26be 53%,#c489c9 77%,#e0b2c5 100%);
+    background: linear-gradient(135deg, #2a166e 0%,#321883 30%,#4e26be 53%,#c489c9 77%,#e0b2c5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a166e', endColorstr='#e0b2c5',GradientType=1 );
+}
+
+
+.hero-slider-area-wrap {
+    position: relative;
+    z-index: 1;
+}
+.hero-slider-area-wrap::after {
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.logo img {
+    width: 140px;
+}
+.main-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.main-menu li {
+    display: inline-block;
+}
+.main-menu a {
+    color: #b87aba;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 23px 20px;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+}
+.main-menu a:hover {
+    color: #fff;
+}
+.header-area {
+    padding: 20px 0;
+    position: relative;
+}
+.header-area::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+}
+.logo {
+    padding-left: 20px;
+}
+.hero-slider-area {
+    position: relative;
+}
+.mobile-screen img {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    width: 340px;
+}
+.slide-text {
+    color: #fff;
+    padding: 130px 140px 120px 0;
+    width: 500px;
+}
+.slide-text h1 {
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0 0 20px;
+}
+.slide-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 40px;
+    opacity: 0.8;
+}
+a.bordered-btn {
+    border: 1px solid;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 15px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+a.bordered-btn:hover {
+    border: 1px solid transparent;
+    text-decoration: underline;
+}
+
+.hero-slider-area.owl-carousel .owl-item img {
+    width: 340px;
+}
+
+
+.hero-slider-area .owl-nav div {
+    color: #fff;
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: -20px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transition: all 0.3s ease 0s;
+}
+.hero-slider-area .owl-nav div.owl-next {
+    left: auto;
+    right: 0;
+}
+.hero-slider-area:hover .owl-nav div {
+    left: 50px;
+    opacity: 1;
+}
+.hero-slider-area:hover .owl-nav div.owl-next {
+    left: auto;
+    right: 50px;
+}
