@@ -1,0 +1,175 @@
+/*    font-family: 'Roboto', sans-serif;*/
+/*    font-family: 'Open Sans', sans-serif;*/
+
+/*Common CSS*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+a:focus {
+    outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    margin: 0 0 15px;   /* top:0, left-right:0; bottom:15px; */
+    font-weight: 300;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title h2 {
+  color: #373737;
+  font-weight: 700;
+  margin: 0 0 30px;
+  padding: 0 0 8px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.section-title h2::after {
+    background: #373737 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 53px;
+}
+
+
+.single-product-item {
+    margin-bottom: 60px;
+    margin-top: 60px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+.product-image-wrap {
+    background: #f0f0f0 none repeat scroll 0 0;
+    display: table;
+    height: 350px;
+    width: 100%;
+}
+.product-image-wrap img {
+    max-width: 260px;
+    transition: all 0.3s ease 0s;
+}
+
+
+.product-image-wrap img:hover {
+  transform: scale(1.1);
+}
+
+.product-image {
+    display: table-cell;
+    vertical-align: middle;
+}
+.product-title {
+    margin-top: 20px;
+}
+.product-title h4 {
+    color: #545454;
+    font-family: roboto;
+    font-weight: 400;
+    margin: 0 0 7px;
+    transition: all 0.3s ease 0s;
+}
+p.product-price {
+    color: #ff5756;
+    font-family: oswald;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.product-top-links {
+  left: 0;
+  opacity: 0;
+  padding: 0 30px;
+  position: absolute;
+  text-align: left;
+  top: 0;
+  transition: all 0.3s ease 0s;
+  visibility: hidden;
+  width: 100%;
+  z-index: 2;
+}
+
+
+.product-top-links a {
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    height: 50px;
+    line-height: 49px;
+    text-align: center;
+    width: 35px;
+}
+.product-top-links a.bordered-icon {
+    border: 2px solid #fc4e4f;
+    height: 50px;
+    line-height: 42px;
+    width: 50px;
+    color: #fff;
+}
+
+.single-product-item::after {
+  background: url("../img/map.png") no-repeat scroll center top / cover #3b3b3b  ;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  z-index: -1;
+}
+
+
+
+.single-product-item:hover::after {
+    height: 120%;
+    opacity: 1;
+    top: -10%;
+}
+.single-product-item:hover .product-image-wrap {
+    background: transparent none repeat scroll 0 0;
+}
+.single-product-item:hover .product-top-links {
+    opacity: 1;
+    top: -15px;
+    visibility: visible;
+}
+
+.single-product-item:hover .product-title h4 {
+    color: #e3e3e3;
+}
+
+
