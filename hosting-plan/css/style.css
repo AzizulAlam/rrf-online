@@ -1,0 +1,178 @@
+/*    font-family: 'Roboto', sans-serif;*/
+/*    font-family: 'Open Sans', sans-serif;*/
+
+/*Common CSS*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+a:focus {
+    outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;   /* top:0, left-right:0; bottom:15px; */
+    font-weight: 300;
+/*    font-family: 'Open Sans', sans-serif;*/
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+/*    font-family: 'Open Sans', sans-serif;*/
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.hosting-price-area {
+    background-image: url(../img/sky-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.hosting-price-wrap {
+    box-shadow: 0 0 10px #333;
+    overflow: hidden;
+}
+.single-hosting-price {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 33.3333%;
+}
+
+.hosting-price-area {
+}
+.hosting-price-img {
+    display: table;
+    height: 180px;
+    width: 100%;
+}
+.hosting-price-img img {
+    max-width: 180px;
+}
+.hosting-price-img-wrap {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    width: 100%;
+}
+.single-hosting-price::after {
+    background: #555 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+}
+.single-hosting-price:last-child::after {
+    display: none;
+}
+.hosting-plan-content {
+    background: #fff none repeat scroll 0 0;
+    padding: 55px;
+}
+h2.hosting-price-title {
+    color: #60b4fb;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 0 30px;
+    padding: 0 0 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+h2.hosting-price-title::after {
+    background: #60b4fb none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 4px;
+    left: 50%;
+    margin-left: -15px;
+    position: absolute;
+    width: 30px;
+}
+h3.hosting-price {
+    color: #ff606a;
+    font-size: 52px;
+    font-weight: 900;
+    margin: 0 0 40px;
+}
+.hosting-price span {
+    position: relative;
+}
+.hosting-price span::before {
+    content: "$";
+    font-size: 25px;
+    left: -15px;
+    position: absolute;
+    top: -5px;
+}
+.hosting-price span::after {
+    bottom: 0;
+    content: "/mo";
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+}
+ul.hosting-plan {
+    color: #60b4fb;
+    font-size: 15px;
+    line-height: 1.6;
+    list-style: outside none none;
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+a.hosting-boxed-btn {
+    background: #60b4fb none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+}
+a.hosting-boxed-btn:hover {
+    background: #fe5662 none repeat scroll 0 0;
+}
+.single-hosting-price:last-child a.hosting-boxed-btn {
+    background: #fe5662 none repeat scroll 0 0;
+    transition: all 0.3s ease 0s;
+    opacity: .8;
+}
+
+.single-hosting-price:last-child a.hosting-boxed-btn:hover {
+    opacity: 1;
+}
+
+
+
+
+
