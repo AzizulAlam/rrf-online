@@ -1,0 +1,25 @@
+
+Promo Bg : #293440
+Big Footer bg: #2b3540
+Footer bg: #1a1a1a
+
+Button Bg: #ff298e
+
+1170/1200
+
+1600
+
+Service Icons
+
+<i class="fa fa-bookmark" aria-hidden="true"></i>
+
+<i class="fa fa-book" aria-hidden="true"></i>
+
+<i class="fa fa-bug" aria-hidden="true"></i>
+
+<i class="fa fa-briefcase" aria-hidden="true"></i>
+
+<i class="fa fa-camera" aria-hidden="true"></i>
+
+<i class="fa fa-check" aria-hidden="true"></i>
+
