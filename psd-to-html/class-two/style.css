@@ -1,0 +1,125 @@
+/*Common CSS*/
+
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+
+@font-face {
+  font-family: 'codeLight';
+  src: url('assets/fonts/codeLight/codeLight.eot');
+  src: url('assets/fonts/codeLight/codeLight.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('assets/fonts/codeLight/codeLight.woff2') format('woff2'), url('assets/fonts/codeLight/codeLight.woff') format('woff'), url('assets/fonts/codeLight/codeLight.ttf') format('truetype'), url('assets/fonts/codeLight/codeLight.svg#codeLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;  
+    font-weight: 400;
+    color: #373737;
+        
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Khula', sans-serif;
+    font-size: 15px;
+    color: #999999;     
+}
+
+input[type="text"], 
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="url"],
+textarea {
+    border: 1px solid #efefef;
+    padding: 12px 20px;
+    width: 300px;
+}
+
+a.boxed-btn, input[type="submit"] {
+  display: inline-block;
+  background: #ef476f;
+  color: #fff;
+  font-weight: 400;
+  padding: 12px 20px;
+  border-radius: 3px;
+  border: none;
+  font-size: 14px;
+}
+
+/*
+Header Area Style Goes Here
+===========================
+*/
+
+.header-area {
+  padding: 20px 0;
+}
+.mainmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.mainmenu li {
+  display: inline-block;
+}
+.mainmenu li a {
+  display: block;
+  color: #888;
+  padding: 12px 15px;
+}
+.mainmenu li.active a {
+  color: #ef476f;
+}
+
+
+
+/*
+Homepage Hero Area Style Goes Here
+===========================
+*/
+
+
+.homepage-hero-area {
+    border-bottom: 1px solid #f6f6f6;
+    padding: 130px 0;
+    margin-bottom: 50px;
+}
+.hero-content {
+    padding: 18px 0;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin: 0 0 25px;
+    max-width: 450px;
+}
+
+.webpage-submitted-form input[type="submit"] {
+    padding: 13px 20px;
+}
+.webpage-submitted-form {
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
