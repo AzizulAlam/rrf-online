@@ -1,0 +1,204 @@
+/*Common CSS*/
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;  
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    background-image: url(assets/fonts/)
+}
+
+.welcome-hero-area {background-image: url(assets/img/hero-area-bg.jpg);}
+
+
+
+.header-area, .header-area a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.mainmenu {
+    margin-top: 3px;
+}
+
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu li {
+  display: inline-block;
+  padding-left: 40px;
+}
+.mainmenu li a {
+    display: block;
+    line-height: 20px;
+    opacity: 0.8;
+    position: relative;
+    padding-bottom: 1px;
+}
+.mainmenu li:hover a::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    display: inline-block;
+}
+
+
+
+.logo h2 {
+    font-size: 24px;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+.logo a {
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+.logo a::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.header-area {
+    padding: 20px 0;
+}
+
+
+
+.welcome-hero-area {
+    background-color: #999;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.welcome-hero-area {
+    height: 100%;
+    position: relative;
+}
+html, body {
+    height: 100%;
+}
+.welcome-hero-contrent {
+    display: table;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+.header-area {
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.welcome-hero-contrent-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.welcome-hero-contrent h1 {
+  color: #c79c69;
+  font-family: "Herr Von Muellerhoff",cursive;
+  font-size: 90px;
+  font-weight: 500;
+  line-height: 9px;
+  text-transform: capitalize;
+}
+.welcome-hero-contrent h2 {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 900;
+  letter-spacing: 12px;
+  margin: 0 0 5px;
+  text-transform: uppercase;
+}
+.welcome-hero-contrent p {
+    color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+a.scroll-to-about {
+  bottom: 20px;
+  color: #fff;
+  display: inline-block;
+  font-size: 30px;
+  left: 50%;
+  margin-left: -20px;
+  opacity: 0.6;
+  position: absolute;
+  text-align: center;
+  width: 40px;
+}
+.bordered-area {
+  margin: 0 auto 6px;
+  max-width: 260px;
+  overflow: hidden;
+}
+.bordered-area i.fa {
+    color: #C79C69;
+    float: left;
+    font-size: 20px;
+    margin: 0 15px;
+}
+
+.border-line-left, .border-line-right {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    height: 2px;
+    margin-top: 10px;
+    position: relative;
+    width: 40%;
+}
+
+.border-line-left::before {
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #fff;
+    border-top: 5px solid transparent;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+}
+.border-line-right::after {
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #fff;
+    border-top: 5px solid transparent;
+    bottom: -4px;
+    content: "";
+    position: absolute;
+    right: -1px;
+}
+
+
+
