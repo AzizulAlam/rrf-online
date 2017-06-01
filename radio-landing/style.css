@@ -1,0 +1,212 @@
+
+/*font-family: 'Karla', sans-serif; */
+/*font-family: 'Roboto', sans-serif; */
+/*font-family: 'Exo', sans-serif; */
+/*font-family: 'Exo 2', sans-serif; */
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Roboto Slab', serif;*/
+
+
+/*Common CSS*/
+
+@font-face {
+  font-family: 'codeLight';
+  src: url('assets/fonts/codeLight/codeLight.eot');
+  src: url('assets/fonts/codeLight/codeLight.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('assets/fonts/codeLight/codeLight.woff2') format('woff2'), url('assets/fonts/codeLight/codeLight.woff') format('woff'), url('assets/fonts/codeLight/codeLight.ttf') format('truetype'), url('assets/fonts/codeLight/codeLight.svg#codeLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'codeBold';
+  src: url('assets/fonts/codeBold/codeBold.eot');
+  src: url('assets/fonts/codeBold/codeBold.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('assets/fonts/codeBold/codeBold.woff2') format('woff2'), url('assets/fonts/codeBold/codeBold.woff') format('woff'), url('assets/fonts/codeBold/codeBold.ttf') format('truetype'), url('assets/fonts/codeBold/codeBold.svg#codeBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;   /* top:0, left-right:0; bottom:15px; */
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    background-image: url(assets/fonts/)
+}
+
+.welcome-hero-area {background-image: url(assets/img/radio-bg.jpg);}
+
+
+.logo a {
+    color: #ef4043;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 900;
+}
+.logo img {
+    margin-right: 6px;
+}
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu li {
+    display: inline-block;
+    padding-left: 20px;
+}
+.mainmenu li a {
+    color: #333;
+    display: block;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.logo {
+    margin-top: 1px;
+}
+.header-area {
+    left: 0;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+}
+.welcome-hero-area {
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+html, body {
+    height: 100%;
+}
+.welcome-hero-area::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.copyright-area {
+    background: #42413e none repeat scroll 0 0;
+}
+.copyright-area, .copyright-area a {
+    color: #9c9c9a;
+}
+.footer-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.footer-menu li {
+    display: inline-block;
+}
+.footer-menu ul a {
+    display: inline-block;
+}
+
+
+
+.copyright-area p {
+    margin: 0;
+}
+.copyright-area {
+    bottom: 0;
+    left: 0;
+    padding: 5px 0;
+    position: absolute;
+    width: 100%;
+}
+.footer-menu li {
+    padding-left: 30px;
+}
+.mainmenu li.bordered a {
+    border: 1px solid;
+    border-radius: 50px;
+    color: #ef4043;
+}
+.welcome-hero-content {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.welcome-hero-content-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.welcome-hero-content, .welcome-hero-content a {
+    color: #42413e;
+}
+input[type="email"] {
+    border: medium none;
+    border-radius: 4px;
+    padding: 8px 20px;
+    width: 240px;
+}
+input[type="submit"] {
+    background: #f64443 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 7px;
+    padding: 9px 20px;
+    text-transform: uppercase;
+}
+.social-icon a {
+    display: inline-block;
+    padding: 10px 5px;
+}
+.email-subscribe-form {
+    margin-top: 100px;
+}
+
+
+
+.welcome-hero-content h1 {
+    font-weight: 900;
+    line-height: 1.2;
+}
+.welcome-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+
+
+.email-subscribe-form p {
+    font-size: 14px;
+    margin: 0 0 5px;
+}
+
+
+
+
+
+
