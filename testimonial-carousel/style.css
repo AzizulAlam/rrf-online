@@ -1,0 +1,113 @@
+
+/*Common CSS*/
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;   
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #ddd;
+    font-family: 'Droid Serif', serif;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.testimonial-area {
+    background-image: url(assets/img/testimonial-slider-background-black-1.jpg);
+}
+
+
+.section-padding {
+    padding: 80px 0;
+}
+.testimonial-area {
+    background-color: #333;
+    background-repeat: repeat;
+    position: relative;
+    z-index: 1;
+    margin: 70px 0;
+}
+.testimonial-carousel {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+}
+.testimonial-carousel img {
+    border-radius: 50%;
+    margin: 0 auto;
+    max-width: 100px;
+}
+.user-avater {
+    margin-bottom: 25px;
+}
+.testimonial-content {
+    font-style: italic;
+}
+.testimonial-carousel h3 {
+    color: #a4a4a3;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.testimonial-carousel h3 span {
+    display: block;
+    font-size: 70%;
+    font-weight: 500;
+    margin-top: 3px;
+}
+.testimonial-area::after {
+    background: #111 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.testimonial-carousel:before, .testimonial-carousel:after {
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 36px;
+    color: #fff;
+}
+.testimonial-carousel::before {
+  content: "\f10d";
+  left: -35px;
+  top: 100px;
+}
+
+.testimonial-carousel::after {
+  bottom: 75px;
+  content: "\f10e";
+  right: -35px;
+}
+
+.testimonial-carousel .owl-dots div {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    margin: 5px;
+    width: 15px;
+}
+.testimonial-carousel .owl-dots div.active {
+    background: #2d4451 none repeat scroll 0 0;
+}
+.testimonial-carousel .owl-dots {
+    margin-top: 30px;
+}
