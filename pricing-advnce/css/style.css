@@ -1,0 +1,156 @@
+/*    font-family: 'Roboto', sans-serif;*/
+/*    font-family: 'Open Sans', sans-serif;*/
+
+/*Common CSS*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+a:focus {
+    outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 0 15px;   /* top:0, left-right:0; bottom:15px; */
+    font-weight: 400;
+    color: #333;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #737678;
+}
+
+
+.section-padding {
+  padding: 100px 0;
+  padding: 20px;
+}
+
+.product-plan-area {
+  overflow: hidden;
+}
+
+.single-product-plan-box {
+    width: 33.3333333333%;
+    float: left;
+    text-align: center;
+    box-shadow: 0 0 10px #f5f5f5;
+    padding-bottom: 30px;
+    background: #fff none repeat scroll 0 0;
+    border-radius: 10px;
+    margin-top: 35px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.single-product-plan-box.active {
+    margin-left: -0.5%;
+    margin-right: -0.5%;
+    margin-top: 0;
+    position: relative;
+    width: 34.3333%;
+    z-index: 2;
+}
+
+.product-plan-header {
+    background: #f1f1f1;
+    padding: 50px;
+    font-size: 17px;
+}
+
+.product-plan-header h3 {
+    color: #888;
+}
+.product-plan-header h1 {
+    color: #333;
+}
+
+.single-product-plan-box.active .product-plan-header {
+  background: #FF1F3B;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.active .product-plan-header h3, .active .product-plan-header h1 {
+    color: #fff;
+}
+
+.single-product-plan-box.active .product-plan-header::after {
+  background: #fff none repeat scroll 0 0;
+  color: #ff1f3b;
+  content: "Featured";
+  padding: 5px;
+  position: absolute;
+  right: -40px;
+  top: 20px;
+  transform: rotate(45deg);
+  width: 150px;
+  font-size: 15px;
+}
+
+.single-product-plan-box.active .product-plan-list {
+    padding: 60px 0;
+}
+
+
+.single-product-plan-box.active a.bordered-btn {
+  background: #FF1F3B;
+  color: #fff;
+  }
+
+
+
+.product-plan-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 32px;
+}
+.product-plan-list {
+  padding: 40px 0;
+}
+
+a.bordered-btn {
+  border: 1px solid #ff1f3b;
+  border-radius: 50px;
+  color: #ff1f3b;
+  display: inline-block;
+  font-weight: 600;
+  margin-top: 30px;
+  padding: 15px 25px;
+  transition: all .3s;
+}
+
+a.bordered-btn:hover, .active a.bordered-btn:hover {
+  background: #333333 none repeat scroll 0 0;
+  border: 1px solid #333;
+  color: #fff;
+}
+
+
+
+
