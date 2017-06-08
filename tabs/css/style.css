@@ -1,0 +1,116 @@
+/*    font-family: 'Roboto', sans-serif;*/
+/*    font-family: 'Open Sans', sans-serif;*/
+
+/*Common CSS*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+a:focus {
+    outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 0 15px;   /* top:0, left-right:0; bottom:15px; */
+    font-weight: 400;
+    color: #333;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #737678;
+}
+
+
+.section-padding {
+  padding: 100px 0;
+  
+}
+
+
+ul.tab-title {
+    border-bottom: 2px solid #ccc;
+    list-style: outside none none;
+    margin: 0 0 30px;
+    padding: 0;
+}
+.product-details-tab {
+    font-size: 20px;
+    line-height: 1.8;
+}
+ul.tab-title li {
+    display: inline-block;
+    
+}
+ul.tab-title li a {
+    color: #666;
+    display: block;
+    font-weight: 400;
+    padding: 10px 20px;
+    position: relative;
+    transition: .4s;
+}
+ul.tab-title li.active a::after {
+    background: #ff1f3b none repeat scroll 0 0;
+    bottom: -2px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+ul.tab-title li.active a, ul.tab-title li:hover a {
+    color: #ff1f3b;
+}
+
+ul.tab-title li:hover a::after {
+    background: #ff1f3b none repeat scroll 0 0;
+    bottom: -2px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+
+a.boxed-btn {
+  background: #ff1f3b none repeat scroll 0 0;
+  border-radius: 50px;
+  color: #fff;
+  display: inline-block;
+  font-weight: 600;
+  margin-top: 30px;
+  padding: 15px 25px;
+  transition: all .3s;
+}
+
+a.boxed-btn:hover {
+  background: #333333 none repeat scroll 0 0;
+  color: #fff;
+}
+
+
+
+
