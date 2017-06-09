@@ -1,0 +1,146 @@
+
+/*Common CSS*/
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 0 15px;   
+    font-weight: 500;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.popular-product-01 {background-image: url(assets/img/product-bg-01.jpg);}
+.popular-product-02 {background-image: url(assets/img/product-bg-02.jpg);}
+.popular-product-03 {background-image: url(assets/img/product-bg-03.jpg);}
+.popular-product-04 {background-image: url(assets/img/product-bg-04.jpg);}
+.popular-product-05 {background-image: url(assets/img/product-bg-01.jpg);}
+
+
+
+.single-carousel-item {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    height: 320px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.carousel-content {
+    bottom: 30px;
+    left: 10%;
+    position: absolute;
+    width: 80%;
+}
+.single-carousel-item:hover::after {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 10px;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.section-padding {
+    padding: 100px 0;
+}
+.section-title {
+    margin-bottom: 60px;
+}
+.section-title p {
+    font-size: 20px;
+}
+.section-title a {
+    color: #fc103c;
+}
+.popular-product-carousel.owl-carousel .owl-stage-outer {
+    overflow: inherit;
+}
+.popular-product-area {
+    overflow-x: hidden;
+}
+.popular-product-carousel .owl-dots div {
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    margin: 7px;
+    width: 15px;
+}
+.popular-product-carousel .owl-dots div.active {
+    background: #ddd none repeat scroll 0 0;
+}
+.popular-product-carousel .owl-dots {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.carousel-content h2, .carousel-content p {
+    transition: all 0.3s ease 0s;
+    color: #fff;
+}
+a.bordered-btn {
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 15px 25px;
+    transition: all 0.3s ease 0s;
+}
+.carousel-content h2 {
+    margin: 0 0 10px;
+}
+
+
+
+.single-carousel-item:hover .carousel-content h2, .single-carousel-item:hover .carousel-content p {
+    color: #333;
+}
+.single-carousel-item:hover a.bordered-btn {
+    border-color: #333;
+    color: #333;
+}
+
+.popular-product-carousel {
+    position: relative;
+}
+
+
+.popular-product-carousel::before, .popular-product-carousel::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: -5000%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 5000%;
+    z-index: 1;
+}
+.popular-product-carousel::after {
+    left: auto;
+    right: -5000%;
+}
+
