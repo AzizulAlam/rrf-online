@@ -1,0 +1,31 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+     
+    .footer-area {
+      color: #555;
+      text-align: center;
+    }
+    .footer-social {
+      margin-top: 5px;
+      text-align: center;
+    }
+
+    .footer-social a {
+      color: #555;
+    }
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
