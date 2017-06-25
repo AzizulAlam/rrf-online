@@ -122,6 +122,7 @@ Homepage Hero Area Style Goes Here
 
 .webpage-submitted-form input[type="submit"] {
     padding: 13px 20px;
+    margin-left: 15px;
 }
 .webpage-submitted-form {
     margin-top: 40px;
